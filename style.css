@@ -18,15 +18,15 @@ span {
 }
 
 .balloon {
-	width: 738px;
+	width: 1280px;
 	margin: 0 auto;
 	padding-top: 30px;
 	position: relative;
 }
 
 .balloon > div {
-	width: 104px;
-	height: 140px;
+	width: 80px;
+	height: 120px;
 	background: rgba(182, 15, 97, 0.9);
 	border-radius: 0;
 	border-radius: 80% 80% 80% 80%;
@@ -35,6 +35,11 @@ span {
 	padding: 10px;
 	box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
 	-webkit-transform-origin: bottom center;
+}
+
+span {
+	font-size: 3.8em; /* menor para caber dentro do balão menor */
+	margin-left: -20px; /* ajustado proporcionalmente */
 }
 
 .balloon > div:nth-child(1) {
