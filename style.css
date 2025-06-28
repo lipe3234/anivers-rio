@@ -18,37 +18,46 @@ span {
 }
 
 .balloon {
-	
-	width: auto;
-	display: flex;
-	justify-content: center;
-	gap: 16px;
-	flex-wrap: nowrap; /* força tudo na mesma linha */
-	position: relative;
-	padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 30px;
+  width: auto;
+  position: relative;
 }
 
 .balloon > div {
-	width: 80px;
-	height: 120px;
-	background: rgba(182, 15, 97, 0.9);
-	border-radius: 80% 80% 80% 80%;
-	padding: 10px;
-	box-shadow: inset 10px 7px 10px rgba(182, 15, 97, 0.9);
-	position: relative; /* antes era absolute */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-span {
-	font-size: 3.5em;
-	color: white;
-	position: relative;
-	top: 0;
-	left: 0;
-	margin: 0;
+  width: 80px;
+  height: 120px;
+  background: rgba(182, 15, 97, 0.9);
+  border-radius: 80% 80% 80% 80%;
+  padding: 10px;
+  box-shadow: inset 10px 7px 10px rgba(182, 15, 97, 0.9);
+  position: relative; /* ⬅️ alterado de absolute para relative */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.balloon > div:before {
+  color: rgba(182, 15, 97, 0.9);
+  position: absolute;
+  bottom: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "▲";
+  font-size: 1em;
+}
+
+span {
+  font-size: 3.2em;
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
 .balloon > div:nth-child(1) {
 	background: rgba(182, 15, 97, 0.9);
 	position: relative;
