@@ -23,7 +23,8 @@ span {
   justify-content: center;
   gap: 16px;
   padding-top: 30px;
-  width: auto;
+  width: 1400px; 
+  margin: 0 auto;
   position: relative;
 }
 
