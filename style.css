@@ -10,38 +10,35 @@ span {
 }
 
 .container {
-	width: 800px;
-	height: 420px;
-	padding-top: 100px;
-	margin: 0 auto;
-	position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
 }
-
 .balloon {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   position: relative;
-  width: auto;
 }
-
 .linha-baixo {
   margin-top: -60px;
 }
+
 
 .balloon > div {
   width: 80px;
   height: 120px;
   background: rgba(182, 15, 97, 0.9);
   border-radius: 80% 80% 80% 80%;
-  padding: 10px;
   box-shadow: inset 10px 7px 10px rgba(182, 15, 97, 0.9);
-  position: relative; /* ⬅️ alterado de absolute para relative */
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center; /* vertical */
+  justify-content: center; /* horizontal */
 }
 
 .balloon > div:before {
@@ -53,7 +50,14 @@ span {
   content: "▲";
   font-size: 1em;
 }
-
+.balloon > div span {
+  font-size: 3.2em;
+  color: white;
+  margin: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 span {
   font-size: 3.2em;
   color: white;
