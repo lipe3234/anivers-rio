@@ -123,7 +123,7 @@ span {
 
 .balloon > div:nth-child(7) {
 	background: rgba(242, 112, 45, 0.9);
-	left: 120px;
+	left: 0px;
 	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
 	-webkit-animation: balloon2 6s ease-in-out infinite;
 	-moz-animation: balloon2 6s ease-in-out infinite;
@@ -149,7 +149,7 @@ span {
 
 .balloon > div:nth-child(9) {
 	background: rgba(242, 112, 45, 0.9);
-	left: 120px;
+	left: 240px;
 	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
 	-webkit-animation: balloon2 6s ease-in-out infinite;
 	-moz-animation: balloon2 6s ease-in-out infinite;
@@ -162,7 +162,7 @@ span {
 
 .balloon > div:nth-child(10) {
 	background: rgba(242, 112, 45, 0.9);
-	left: 120px;
+	left: 360px;
 	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
 	-webkit-animation: balloon2 6s ease-in-out infinite;
 	-moz-animation: balloon2 6s ease-in-out infinite;
@@ -175,7 +175,7 @@ span {
 
 .balloon > div:nth-child(11) {
 	background: rgba(242, 112, 45, 0.9);
-	left: 120px;
+	left: 480px;
 	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
 	-webkit-animation: balloon2 6s ease-in-out infinite;
 	-moz-animation: balloon2 6s ease-in-out infinite;
