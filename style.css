@@ -19,13 +19,16 @@ span {
 
 .balloon {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
-  padding-top: 30px;
-  width: 1400px; 
-  margin: 0 auto;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-bottom: 10px;
   position: relative;
+  width: auto;
+}
+
+.linha-baixo {
+  margin-top: -60px;
 }
 
 .balloon > div {
