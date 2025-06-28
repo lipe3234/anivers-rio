@@ -184,6 +184,72 @@ span {
 }
 .balloon > div:nth-child(11):before {
 	color: rgba(182, 15, 97, 0.9);
+} 
+
+.balloon > div:nth-child(12) {
+	background: rgba(242, 112, 45, 0.9);
+	left: 480px;
+	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+	-webkit-animation: balloon2 6s ease-in-out infinite;
+	-moz-animation: balloon2 6s ease-in-out infinite;
+	-o-animation: balloon2 6s ease-in-out infinite;
+	animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(12):before {
+	color: rgba(182, 15, 97, 0.9);
+}
+
+.balloon > div:nth-child(13) {
+	background: rgba(242, 112, 45, 0.9);
+	left: 480px;
+	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+	-webkit-animation: balloon2 6s ease-in-out infinite;
+	-moz-animation: balloon2 6s ease-in-out infinite;
+	-o-animation: balloon2 6s ease-in-out infinite;
+	animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(13):before {
+	color: rgba(182, 15, 97, 0.9);
+}
+
+.balloon > div:nth-child(14) {
+	background: rgba(242, 112, 45, 0.9);
+	left: 480px;
+	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+	-webkit-animation: balloon2 6s ease-in-out infinite;
+	-moz-animation: balloon2 6s ease-in-out infinite;
+	-o-animation: balloon2 6s ease-in-out infinite;
+	animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(14):before {
+	color: rgba(182, 15, 97, 0.9);
+}
+
+.balloon > div:nth-child(15) {
+	background: rgba(242, 112, 45, 0.9);
+	left: 480px;
+	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+	-webkit-animation: balloon2 6s ease-in-out infinite;
+	-moz-animation: balloon2 6s ease-in-out infinite;
+	-o-animation: balloon2 6s ease-in-out infinite;
+	animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(15):before {
+	color: rgba(182, 15, 97, 0.9);
+}
+
+
+.balloon > div:nth-child(16) {
+	background: rgba(242, 112, 45, 0.9);
+	left: 480px;
+	box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+	-webkit-animation: balloon2 6s ease-in-out infinite;
+	-moz-animation: balloon2 6s ease-in-out infinite;
+	-o-animation: balloon2 6s ease-in-out infinite;
+	animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(16):before {
+	color: rgba(182, 15, 97, 0.9);
 }
 
 .balloon > div:before {
